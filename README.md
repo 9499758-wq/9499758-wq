@@ -1,10 +1,10 @@
 <div align="center">
 
 # 💫 Hey there, I'm lanny98801 (@9499758-wq) 👋
-### 🚀 *Architecting Autonomous AI Agents · Crafting Native macOS Experiences · Security & Tooling Engineer*
+### 🚀 *Architecting Autonomous AI Agents · macOS Tools Crafting · Developer Productivity & Security*
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=0A84FF&center=true&vCenter=true&width=750&lines=Autonomous+AI+Agent+Architect+(Hermes+%26+Codex);Native+macOS+SwiftUI+%26+Metal+Artisan+(Atoll+%26+RunCatNeo);AI+Developer+Tooling+%26+Ecosystem+Builder+(Antigravity);Reverse+Engineering+%26+Full-Stack+Indie+Maker" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=0A84FF&center=true&vCenter=true&width=750&lines=Autonomous+AI+Agent+Architect+(Hermes+%26+Codex);macOS+SwiftUI+%26+System+Tooling+Artisan;AI+Developer+Tooling+%26+Ecosystem+Builder+(Antigravity);Full-Stack+Indie+Maker+%26+Open+Source+Enthusiast" alt="Typing SVG" />
 </p>
 
 [![GitHub followers](https://img.shields.io/github/followers/9499758-wq?label=Followers&style=for-the-badge&color=blue)](https://github.com/9499758-wq)
@@ -17,12 +17,12 @@
 
 ## 🌌 关于我 (About Me)
 
-我是一名深耕于 **自主 AI 智能体底层架构 (Autonomous AI Agents)**、**macOS 原生精工开发 (SwiftUI & Metal)** 以及 **开发者效率工具与系统级安全监控** 的全栈独立开发者。
+我是一名深耕于 **自主 AI 智能体底层架构 (Autonomous AI Agents)**、**macOS 原生应用定制与生态增强** 以及 **开发者生产力工具与安全监控** 的全栈独立开发者。
 
 - 🧠 **AI 智能体系统**：主导设计并研发了 **[Hermes Agent](https://github.com/9499758-wq/hermes-agent)** 与 **Codex** 智能体运行时，涵盖状态持久化引擎（WAL/SQLite）、Phoenix 网关、多模型路由与 TUI/WebUI 交互架构。
-- 🍏 **macOS 原生精工**：打造了 **[Atoll（Mac 灵动岛）](https://github.com/9499758-wq/Atoll)**、**[RunCatNeo（状态栏猫咪）](https://github.com/9499758-wq/RunCatNeo)** 与 **[Stats Custom](https://github.com/9499758-wq/Stats-Custom)**，致力于将极致的视觉美学、Metal 硬件加速与 macOS 底层系统指标完美融合。
+- 🍏 **macOS 原生工具与二次开发**：致力于在尊重开源上游的基础上，对优秀的 macOS 开源工具进行深度二次开发与本地化增强（包括 **[Atoll 灵动岛定制版](https://github.com/9499758-wq/Atoll)**、**[RunCatNeo 状态栏猫咪定制版](https://github.com/9499758-wq/RunCatNeo)** 与 **[Stats Custom](https://github.com/9499758-wq/Stats-Custom)**），将极致的交互美学与系统级指标深度融合。
 - ⚡ **开发者生产力与系统工具**：开发了 **[Antigravity 终极汉化补丁](https://github.com/9499758-wq/antigravity-chinese-patch)**（业界首创 100% 覆盖、零外部依赖物理注入）及 **[PrintSentinel（打印安全审计）](https://github.com/9499758-wq/PrintSentinel)**。
-- 🎯 **核心技术理念**：*追求极致的工程鲁棒性、优雅的原生交互与无感的智能化体验。*
+- 🎯 **核心技术理念**：*追求极致的工程鲁棒性、优雅的交互体验与对开源社区的敬畏与回馈。*
 
 ---
 
@@ -64,35 +64,39 @@
 
 ---
 
-### 🏝️ 2. macOS 原生精工与系统级交互 (Native macOS & System Utilities)
+### 🏝️ 2. macOS 原生精工与二次开发增强 (Native macOS & Custom Forks)
+
+> 💡 *本板块项目基于开源社区杰出项目进行二次开发与定制增强，由衷致敬原作者的开创性工作。*
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">🏝️ <a href="https://github.com/9499758-wq/Atoll">Atoll for macOS</a></h3>
-      <p align="center"><b>Dynamic Island for macOS (Mac 刘海灵动岛)</b></p>
+      <h3 align="center">🏝️ <a href="https://github.com/9499758-wq/Atoll">Atoll for macOS (二次开发版)</a></h3>
+      <p align="center"><b>Mac 刘海屏灵动岛 · 二次开发与定制增强版</b></p>
+      <p><i>基于原作者 <a href="https://github.com/Ebullioscopic/Atoll">Ebullioscopic/Atoll</a> 源码进行深度二次开发</i></p>
       <ul>
-        <li><b>原生 SwiftUI + Metal</b>：将 MacBook 屏幕刘海化身为强大的聚焦控制中心；</li>
-        <li><b>实时媒体与桌面歌词</b>：全平台音乐适配，支持 Metal 频谱可视化与悬浮歌词；</li>
-        <li><b>实时活动与锁屏组件</b>：锁屏硬件监控、蓝牙外设电量、倒计时与天气预报动效。</li>
+        <li><b>动效与部署增强</b>：深度优化天气预报动效帧序列，新增一键自动化构建部署脚本；</li>
+        <li><b>桥接工具链集成</b>：扩展 <code>AtollBridge</code> Python & Swift 自动化跨进程桥接能力；</li>
+        <li><b>交互特性</b>：媒体实时歌词控制、锁屏扩展小组件与 Metal 音频频谱可视化。</li>
       </ul>
       <p align="center">
         <img src="https://img.shields.io/badge/Swift-5.9%2B-F05138?style=flat-square&logo=swift" alt="Swift" />
         <img src="https://img.shields.io/badge/UI-SwiftUI%20%2B%20Metal-007ACC?style=flat-square" alt="SwiftUI" />
-        <img src="https://img.shields.io/badge/Platform-macOS%2014.0%2B-black?style=flat-square&logo=apple" alt="macOS" />
+        <img src="https://img.shields.io/badge/Custom-Fork%20%26%20Enhanced-green?style=flat-square" alt="Custom Fork" />
       </p>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">🐱 <a href="https://github.com/9499758-wq/RunCatNeo">RunCatNeo</a> · <a href="https://github.com/9499758-wq/Stats-Custom">Stats Custom</a></h3>
-      <p align="center"><b>轻量级 macOS 状态栏动态性能监视器</b></p>
+      <p align="center"><b>轻量级 macOS 状态栏动态性能监视器 (二次开发版)</b></p>
+      <p><i>分别基于原作者 <a href="https://github.com/Kyome22/RunCat_for_macOS">Kyome (RunCat)</a> 与 <a href="https://github.com/exelban/stats">exelban (Stats)</a> 二次开发</i></p>
       <ul>
-        <li><b>RunCatNeo</b>：猫咪跑动帧率随 CPU/GPU 负载平滑变速，支持像素动图与状态栏小组件；</li>
-        <li><b>Stats Custom</b>：原生 Swift + AppKit 开发的 CPU/GPU、内存压力、电池与网络监控套件；</li>
-        <li><b>极低资源占用</b>：极致优化后台线程，保障接近零开销的系统指标追踪。</li>
+        <li><b>RunCatNeo 调优</b>：重构底层性能调度与帧率映射曲线，扩展 RunnerBar 状态存储模块；</li>
+        <li><b>Stats Custom 定制</b>：深度定制硬件看板视图、本地化模块与极简仪表盘；</li>
+        <li><b>极低资源占用</b>：优化后台能效，确保接近零 CPU 占用的全天候轻量监视。</li>
       </ul>
       <p align="center">
         <img src="https://img.shields.io/badge/macOS-AppKit%20%2F%20SwiftUI-black?style=flat-square" alt="AppKit" />
-        <img src="https://img.shields.io/badge/Status%20Bar-Monitor-blue?style=flat-square" alt="Monitor" />
+        <img src="https://img.shields.io/badge/Custom-Fork%20%26%20Enhanced-green?style=flat-square" alt="Custom Fork" />
       </p>
     </td>
   </tr>
@@ -184,7 +188,7 @@
 
 <div align="center">
   <br/>
-  <b>⚡ <i>"Simplicity is the prerequisite for reliability, elegance is the hallmark of craftsmanship."</i></b>
+  <b>⚡ <i>"Standing on the shoulders of open-source giants, crafting elegance and reliability."</i></b>
   <br/><br/>
   <i>欢迎关注、交流与 Star 支持！⭐</i>
 </div>
