@@ -17,40 +17,40 @@
 
 ## 🌌 关于我 (About Me)
 
-我是一名深耕于 **自主 AI 智能体底层架构 (Autonomous AI Agents)**、**macOS 原生精工开发 (SwiftUI & Metal)** 以及 **开发者效率工具与安全逆向工程** 的全栈独立开发者。
+我是一名深耕于 **自主 AI 智能体底层架构 (Autonomous AI Agents)**、**macOS 原生精工开发 (SwiftUI & Metal)** 以及 **开发者效率工具与系统级安全监控** 的全栈独立开发者。
 
-- 🧠 **AI 智能体系统**：主导设计并研发了 **Hermes Agent** 与 **Codex** 智能体运行时，涵盖状态持久化引擎（WAL/SQLite）、Phoenix 网关、多模型路由与 TUI/WebUI 交互架构。
-- 🍏 **macOS 原生精工**：打造了 **Atoll（Mac 刘海灵动岛）**、**RunCatNeo** 与 **NookX Pro**，致力于将极致的视觉美学、Metal 硬件加速与 macOS 底层系统指标完美融合。
-- ⚡ **开发者生产力与生态**：开发了 **Antigravity 终极深度汉化补丁**（业界首创 100% 覆盖、零外部依赖物理注入）及 BurpSuite / JSHook MCP 逆向安全工具链。
+- 🧠 **AI 智能体系统**：主导设计并研发了 **[Hermes Agent](https://github.com/9499758-wq/hermes-agent)** 与 **Codex** 智能体运行时，涵盖状态持久化引擎（WAL/SQLite）、Phoenix 网关、多模型路由与 TUI/WebUI 交互架构。
+- 🍏 **macOS 原生精工**：打造了 **[Atoll（Mac 灵动岛）](https://github.com/9499758-wq/Atoll)**、**[RunCatNeo（状态栏猫咪）](https://github.com/9499758-wq/RunCatNeo)** 与 **[Stats Custom](https://github.com/9499758-wq/Stats-Custom)**，致力于将极致的视觉美学、Metal 硬件加速与 macOS 底层系统指标完美融合。
+- ⚡ **开发者生产力与系统工具**：开发了 **[Antigravity 终极汉化补丁](https://github.com/9499758-wq/antigravity-chinese-patch)**（业界首创 100% 覆盖、零外部依赖物理注入）及 **[PrintSentinel（打印安全审计）](https://github.com/9499758-wq/PrintSentinel)**。
 - 🎯 **核心技术理念**：*追求极致的工程鲁棒性、优雅的原生交互与无感的智能化体验。*
 
 ---
 
-## 🪐 核心开发版图与精选项目 (Project Showcase)
+## 🪐 核心开发版图与已发布开源项目 (Project Showcase)
 
 ### 🤖 1. 自主 AI 智能体与底层引擎架构 (AI Agents & Core Engines)
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">🧠 <b>Hermes Agent & Gateway</b></h3>
+      <h3 align="center">🧠 <a href="https://github.com/9499758-wq/hermes-agent">Hermes Agent & Gateway</a></h3>
       <p align="center"><b>高并发自主 AI 智能体运行时与多模型网关</b></p>
       <ul>
         <li><b>状态与记忆持久化</b>：自研 WAL 日志回滚与 SQLite 状态搜索引擎，保障多轮推理与断点自愈；</li>
-        <li><b>双模态交互</b>：深度集成 <code>Hermes TUI</code> 终端界面与 <code>HermesWebUI</code> 现代可视化控制台；</li>
-        <li><b>Phoenix 引擎集成</b>：支持多模型无缝切换、技能热插拔与自动化任务调度。</li>
+        <li><b>双模态交互</b>：深度集成 <code>Hermes TUI</code> 终端界面与 <code>HermesWebUI</code> 现代化控制台；</li>
+        <li><b>Phoenix 引擎集成</b>：支持多模型无缝热切换、批量推理调度（Batch Runner）与技能扩展。</li>
       </ul>
       <p align="center">
         <img src="https://img.shields.io/badge/Python-3.11%2B-blue?style=flat-square" alt="Python" />
         <img src="https://img.shields.io/badge/Architecture-Autonomous%20Agent-purple?style=flat-square" alt="Agent" />
-        <img src="https://img.shields.io/badge/Engine-Phoenix-orange?style=flat-square" alt="Engine" />
+        <img src="https://img.shields.io/badge/Gateway-Phoenix-orange?style=flat-square" alt="Engine" />
       </p>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">🧩 <b>Codex Multi-Agent Orchestrator</b></h3>
-      <p align="center"><b>复杂工程级多智能体协同流水线</b></p>
+      <p align="center"><b>复杂工程级多智能体协同调度流水线</b></p>
       <ul>
-        <li><b>协同调度</b>：支持任务分解、子智能体派发与上下文精准聚合；</li>
+        <li><b>协同调度</b>：支持任务递归分解、子智能体协同派发与上下文精准聚合；</li>
         <li><b>快照与回滚机制</b>：内置全链路 Checkpoint 与版本升级融合保障；</li>
         <li><b>自动化工具链</b>：无缝打通本地终端命令、代码审查与动态补丁验证。</li>
       </ul>
@@ -83,12 +83,12 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">📊 <b>RunCatNeo · NookX Pro · PrintSentinel</b></h3>
-      <p align="center"><b>轻量级 macOS 硬件监视与安全流水线</b></p>
+      <h3 align="center">🐱 <a href="https://github.com/9499758-wq/RunCatNeo">RunCatNeo</a> · <a href="https://github.com/9499758-wq/Stats-Custom">Stats Custom</a></h3>
+      <p align="center"><b>轻量级 macOS 状态栏动态性能监视器</b></p>
       <ul>
-        <li><b>极低开销系统监视</b>：低 CPU 占用的实时 CPU/GPU/内存/网络/磁盘性能监视；</li>
-        <li><b>NookX Pro Pipeline</b>：macOS 逆向流水线、代码签名验证与沙箱权限配置；</li>
-        <li><b>状态栏动画引擎</b>：高度可定制的多帧状态栏动画与视觉反馈。</li>
+        <li><b>RunCatNeo</b>：猫咪跑动帧率随 CPU/GPU 负载平滑变速，支持像素动图与状态栏小组件；</li>
+        <li><b>Stats Custom</b>：原生 Swift + AppKit 开发的 CPU/GPU、内存压力、电池与网络监控套件；</li>
+        <li><b>极低资源占用</b>：极致优化后台线程，保障接近零开销的系统指标追踪。</li>
       </ul>
       <p align="center">
         <img src="https://img.shields.io/badge/macOS-AppKit%20%2F%20SwiftUI-black?style=flat-square" alt="AppKit" />
@@ -100,7 +100,7 @@
 
 ---
 
-### 🚀 3. Antigravity 开发生态与安全逆向工具 (Antigravity & Tooling)
+### 🚀 3. 开发者生态与系统安全工具 (Developer Tooling & Security)
 
 <table>
   <tr>
@@ -119,16 +119,16 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">🛡️ <b>Security & Reverse MCP Toolchains</b></h3>
-      <p align="center"><b>BurpSuite & JSHook MCP 桥接工具链</b></p>
+      <h3 align="center">🖨️ <a href="https://github.com/9499758-wq/PrintSentinel">PrintSentinel</a></h3>
+      <p align="center"><b>打印服务安全监控与队列审计系统</b></p>
       <ul>
-        <li><b>Burp MCP Bridge</b>：实现 BurpSuite 78+ 款抓包渗透工具的无感 MCP 标准桥接；</li>
-        <li><b>JSHook & CDP</b>：高精度前端加密定位、Hook 与运行时采样分析工具；</li>
-        <li><b>CTF & Sandbox</b>：自动化渗透与二进制逆向推理环境。</li>
+        <li><b>任务全生命周期审计</b>：支持打印任务拦截、状态轮询与异常断点重试；</li>
+        <li><b>敏感数据识别</b>：内置快递运单（SF/YT/YD/JD）与敏感字段正则过滤引擎；</li>
+        <li><b>可视化管理后台</b>：提供轻量级 Web 控制台与 Spool 文件解析处理能力。</li>
       </ul>
       <p align="center">
-        <img src="https://img.shields.io/badge/Protocol-MCP%20JSON--RPC-blueviolet?style=flat-square" alt="MCP" />
-        <img src="https://img.shields.io/badge/Security-BurpSuite%20%2F%20Frida-red?style=flat-square" alt="Security" />
+        <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-blue?style=flat-square" alt="Platform" />
+        <img src="https://img.shields.io/badge/Audit-Spooler%20Security-red?style=flat-square" alt="Audit" />
       </p>
     </td>
   </tr>
@@ -139,7 +139,7 @@
 ### 🌸 4. 创意应用与私域小程序 (Creative Products)
 
 * 🌸 **[Immersive Flower Miniapp](https://github.com/9499758-wq/immersive-flower-miniapp)**：像素风鲜花养成 + 真花市集微信小程序，以游戏化种植、稀有品种收集与花晶币兑换机制赋能私域复购。
-* 📷 **Yunnan Photo Cloud (机位云相册)**：摄影师专属机位探索、云相册分享与摄影社区小程序。
+* 📷 **云南机位云相册 (Yunnan Photo Cloud)**：摄影师机位探索与视觉社交小程序。
 
 ---
 
@@ -150,6 +150,7 @@
 ### 💻 编程语言 (Languages)
 <img src="https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white" alt="Swift" />
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
 <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
@@ -160,15 +161,9 @@
 <img src="https://img.shields.io/badge/Apple_Metal-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Metal" />
 <img src="https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white" alt="Electron" />
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+<img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET" />
 <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-
-### 🛡️ AI & 逆向安全工具 (AI & Security Toolchain)
-<img src="https://img.shields.io/badge/Model_Context_Protocol_(MCP)-8A2BE2?style=for-the-badge" alt="MCP" />
-<img src="https://img.shields.io/badge/Google_Gemini-8E75C2?style=for-the-badge&logo=google&logoColor=white" alt="Gemini" />
-<img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge" alt="BurpSuite" />
-<img src="https://img.shields.io/badge/Frida-2D3748?style=for-the-badge" alt="Frida" />
-<img src="https://img.shields.io/badge/radare2-000000?style=for-the-badge" alt="radare2" />
 
 </div>
 
